@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Protegido | A sua saúde sem interrupções</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Custom Colors */
+        .bg-medical-blue { background-color: #0A2540; }
+        .text-medical-blue { color: #0A2540; }
+        .bg-medical-light { background-color: #F0F4F8; }
+        .btn-action { background-color: #00D084; hover: #00B371; } /* WhatsApp Green Tone */
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 flex flex-col min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-shield-heart text-medical-blue text-3xl"></i>
+                <span class="text-2xl font-bold text-medical-blue">Dr. Protegido</span>
+            </div>
+            <a href="#contato" class="hidden md:inline-flex bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition duration-300 items-center gap-2">
+                <i class="fa-brands fa-whatsapp"></i> Falar com Consultor
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-medical-blue text-white py-16 md:py-24">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 space-y-6">
+                <div class="inline-block bg-blue-800 text-blue-100 px-3 py-1 rounded-full text-sm font-semibold tracking-wide">
+                    Parceria Médica Exclusiva
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+                    Não interrompa o seu cuidado com o médico que confia.
+                </h1>
+                <p class="text-lg text-blue-100">
+                    O seu plano atual não é aceite na clínica? Nós encontramos a solução ideal para que mantenha o seu tratamento e exames, muitas vezes com redução de custos para o seu CNPJ.
+                </p>
+                <div class="pt-4">
+                    <a href="#contato" class="inline-flex bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Quero uma Simulação Gratuita
+                    </a>
+                </div>
+                <p class="text-sm text-blue-200 mt-2"><i class="fa-solid fa-lock mr-1"></i> Atendimento 100% Digital e Seguro</p>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for a nice image (e.g., doctor and patient talking or a digital consultation) -->
+                <div class="bg-white p-2 rounded-2xl shadow-2xl transform rotate-2 hover:rotate-0 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Consulta Médica" class="rounded-xl w-full h-auto object-cover" onerror="this.src='https://via.placeholder.com/800x600?text=Atendimento+Médico'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-medical-blue mb-4">Como o Programa Dr. Protegido o ajuda?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Atuamos como ponte entre si e as melhores operadoras do mercado, garantindo que o foco seja sempre a sua saúde.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-medical-light p-8 rounded-2xl text-center border border-gray-100 hover:shadow-lg transition duration-300">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fa-solid fa-user-doctor text-2xl text-medical-blue"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Continuidade do Tratamento</h3>
+                    <p class="text-gray-600">Encontramos planos que a sua clínica de confiança já aceita, evitando que tenha de trocar de especialista.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="bg-medical-light p-8 rounded-2xl text-center border border-gray-100 hover:shadow-lg transition duration-300">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fa-solid fa-wallet text-2xl text-medical-blue"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Economia para PME/MEI</h3>
+                    <p class="text-gray-600">Se possui um CNPJ, temos acesso a tabelas empresariais com valores até 40% menores que os planos individuais.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-medical-light p-8 rounded-2xl text-center border border-gray-100 hover:shadow-lg transition duration-300">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fa-solid fa-money-bill-transfer text-2xl text-medical-blue"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Alta Taxa de Reembolso</h3>
+                    <p class="text-gray-600">Para consultas particulares, focamos em planos (como Bradesco e SulAmérica) que devolvem o valor pago de forma rápida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-medical-blue mb-12">Processo 100% Digital e Rápido</h2>
+            
+            <div class="space-y-8">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-medical-blue text-white flex items-center justify-center font-bold text-lg">1</div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-1">Indicação da Clínica</h4>
+                        <p class="text-gray-600">A sua clínica encaminha-o para nós quando identifica que o seu plano atual não possui cobertura para o atendimento.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-medical-blue text-white flex items-center justify-center font-bold text-lg">2</div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-1">Consultoria Expressa</h4>
+                        <p class="text-gray-600">Avaliamos o seu perfil (Idade, CNPJ, Necessidades) e apresentamos as melhores opções de cobertura e reembolso.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center font-bold text-lg"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-1">Tratamento Garantido</h4>
+                        <p class="text-gray-600">Aprovamos o seu novo plano rapidamente e já pode agendar o seu retorno com o seu médico de confiança.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário / Contato Section -->
+    <section id="contato" class="py-16 bg-white flex-grow">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+                <div class="bg-medical-blue p-6 text-center">
+                    <h2 class="text-2xl font-bold text-white">Solicite a sua Simulação</h2>
+                    <p class="text-blue-100 mt-2">Preencha os dados abaixo e entraremos em contacto via WhatsApp em minutos.</p>
+                </div>
+                <div class="p-8">
+                    <!-- WhatsApp Redirect Form -->
+                    <form id="leadForm" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">O seu Nome</label>
+                            <input type="text" id="nome" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-medical-blue focus:border-transparent outline-none transition" placeholder="Como gosta de ser chamado?">
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Nome do Médico (Opcional)</label>
+                                <input type="text" id="medico" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-medical-blue focus:border-transparent outline-none transition" placeholder="Ex: Dr. João Silva">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Possui CNPJ ou MEI?</label>
+                                <select id="cnpj" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-medical-blue focus:border-transparent outline-none transition bg-white">
+                                    <option value="Sim, possuo">Sim, possuo</option>
+                                    <option value="Não possuo">Não possuo</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Qual é o seu objetivo principal?</label>
+                            <select id="objetivo" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-medical-blue focus:border-transparent outline-none transition bg-white">
+                                <option value="A clínica não aceita o meu plano atual">A clínica não aceita o meu plano atual</option>
+                                <option value="Procuro um plano com alto reembolso">Procuro um plano com alto reembolso</option>
+                                <option value="Acho o meu plano atual muito caro">Acho o meu plano atual muito caro</option>
+                                <option value="Ainda não tenho plano de saúde">Ainda não tenho plano de saúde</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-xl text-lg transition duration-300 flex justify-center items-center gap-2 shadow-md">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> Receber Cotação no WhatsApp
+                        </button>
+                        <p class="text-xs text-center text-gray-500 mt-4">
+                            <i class="fa-solid fa-lock"></i> Os seus dados estão seguros. Não enviamos spam.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex justify-center items-center gap-2 mb-4">
+                <i class="fa-solid fa-shield-heart text-gray-500 text-xl"></i>
+                <span class="text-xl font-bold text-gray-300">Dr. Protegido</span>
+            </div>
+            <p class="text-sm">
+                Consultoria Especializada em Planos de Saúde. Parceria com as melhores clínicas.
+            </p>
+            <p class="text-sm mt-2">
+                &copy; <span id="year"></span> Dr. Protegido. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script to handle form to WhatsApp -->
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Handle Form Submission
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const nome = document.getElementById('nome').value;
+            const medico = document.getElementById('medico').value || 'Não informado';
+            const cnpj = document.getElementById('cnpj').value;
+            const objetivo = document.getElementById('objetivo').value;
+
+            // ==========================================
+            // IMPORTANTE: COLOQUE O SEU NÚMERO AQUI
+            // Formato: Código do País + DDD + Número. Ex: 5511999999999
+            const seuNumeroWhatsApp = "5521973987378"; 
+            // ==========================================
+
+            // Construct the message
+            let mensagem = `Olá, vim da página *Dr. Protegido* e gostaria de uma simulação.\n\n`;
+            mensagem += `👤 *Nome:* ${nome}\n`;
+            mensagem += `🩺 *Médico Indicou:* ${medico}\n`;
+            mensagem += `🏢 *Possui CNPJ:* ${cnpj}\n`;
+            mensagem += `🎯 *Objetivo:* ${objetivo}\n\n`;
+            mensagem += `Aguardo o contacto!`;
+
+            // Encode text for URL
+            const urlEncodedText = encodeURIComponent(mensagem);
+            
+            // Create WhatsApp Link
+            const whatsappLink = `https://wa.me/${seuNumeroWhatsApp}?text=${urlEncodedText}`;
+            
+            // Redirect to WhatsApp
+            window.open(whatsappLink, '_blank');
+        });
+    </script>
+</body>
+</html>
